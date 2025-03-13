@@ -1,0 +1,55 @@
+body{
+    background-color: #d7b6f3;
+    display: flex;
+    justify-content: center;
+}
+.face{
+    background-color: #fbebfc;
+    width: 350px;
+    padding: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow:0 20px 30px rgba(0,0,0,0.1);
+}
+.insert{
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.newThing{
+    flex-grow: 1;
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+}
+.button{
+    background-color: #a093a1;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.list{
+    list-style-type: none;
+    padding: 10px 0;
+}
+.list li{
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.list label{
+    flex-grow: 1;
+}
+.checkbox{
+    margin-right: 15px;
+}
+.trash{
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.trash:hover{
+    opacity:1;
+}
