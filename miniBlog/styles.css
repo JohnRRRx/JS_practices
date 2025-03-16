@@ -1,0 +1,78 @@
+body{
+    background-color: #fff1cb;
+    display: flex;
+    justify-content: center;
+}
+#face {
+    width: 600px;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: #f8cea8;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+#hey {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(88, 86, 86);
+    text-align: center;
+}
+
+#insert {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+#title {
+    flex-grow: 1;
+    width: auto;
+    padding: 12px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    color: rgb(88, 86, 86);
+    font-size: 16px;
+    resize: none;
+}
+
+#content {
+    width: auto;
+    height: 100px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    color: rgb(88, 86, 86);
+    font-size: 16px;
+    resize: none;
+}
+
+#post {
+    width: 100%;
+    padding: 12px;
+    background-color: #2f844f;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#post:disabled {
+    background-color: #c6e5d2;
+    cursor: default;
+}
+
+#post:hover:not(:disabled) {
+    background-color: #2fbe66;
+}
+.article {
+    background-color: #ffffff;
+    color: rgb(88, 86, 86);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
